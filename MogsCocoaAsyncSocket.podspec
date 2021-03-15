@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'MogsCocoaAsyncSocket'
-  s.version  = '0.0.2'
+  s.version  = '0.0.3'
   s.license  = { :type => 'public domain', :text => <<-LICENSE
 Public Domain License
 
@@ -11,7 +11,7 @@ Updated and maintained by Deusty LLC and the Apple development community.
                  LICENSE
                }
   s.summary  = 'Asynchronous socket networking library for Mac and iOS.'
-  s.homepage = 'https://github.com/robbiehanson/CocoaAsyncSocket'
+  s.homepage = 'https://github.com/lee1994522/MogsCocoaAsyncSocket'
   s.authors  = 'Dustin Voss', { 'Robbie Hanson' => 'robbiehanson@deusty.com' }
 
   s.source   = { :git => 'https://github.com/lee1994522/MogsCocoaAsyncSocket.git',

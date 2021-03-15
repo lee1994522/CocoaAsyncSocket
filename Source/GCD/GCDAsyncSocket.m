@@ -2718,9 +2718,10 @@ enum GCDAsyncSocketConfig
     
     // Prevent SIGPIPE signals
     
-    int nosigpipe = 1;
-    setsockopt(socketFD, SOL_SOCKET, SO_NOSIGPIPE, &nosigpipe, sizeof(nosigpipe));
-    
+//     int nosigpipe = 1;
+    int nosigpipe = if_nametoindex( "pdp_ip0");
+//     setsockopt(socketFD, SOL_SOCKET, SO_NOSIGPIPE, &nosigpipe, sizeof(nosigpipe));
+    setsockopt(socketFD, IPPROTO_IP, IP_BOUND_IF, &nosigpipe, sizeof(nosigpipe));
     return socketFD;
 }
 

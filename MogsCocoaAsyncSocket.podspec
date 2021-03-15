@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
-  s.name     = 'CocoaAsyncSocket'
-  s.version  = '0.0.1'
+  s.name     = 'MogsCocoaAsyncSocket'
+  s.version  = '0.0.2'
   s.license  = { :type => 'public domain', :text => <<-LICENSE
 Public Domain License
 
@@ -14,7 +14,7 @@ Updated and maintained by Deusty LLC and the Apple development community.
   s.homepage = 'https://github.com/robbiehanson/CocoaAsyncSocket'
   s.authors  = 'Dustin Voss', { 'Robbie Hanson' => 'robbiehanson@deusty.com' }
 
-  s.source   = { :git => 'https://github.com/lee1994522/CocoaAsyncSocket.git',
+  s.source   = { :git => 'https://github.com/lee1994522/MogsCocoaAsyncSocket.git',
                  :tag => "#{s.version}" }
 
   s.description = 'CocoaAsyncSocket supports TCP and UDP. The AsyncSocket class is for TCP, and the AsyncUdpSocket class is for UDP. ' \
